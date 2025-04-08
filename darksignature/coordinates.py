@@ -20,7 +20,7 @@ def get_coordinates_from_pubkey(pubkey_hex):
     
     return Gx_hex, Gy_hex 
 
-pubkeyhex = "04d6597d465408e6e11264c116dd98b539740e802dc756d7eb88741696e20dfe7d3588695d2e7ad23cbf0aa056d42afada63036d66a1d9b97070dd6bc0c87ceb0d" 
+pubkeyhex = "04ca5606a1e820e7a2f6bb3ab090e8ade7b04a7e0b5909a68dda2744ae3b8ecbfa280a47639c811134d648e8ee8096c33b41611be509ebca837fbda10baaa1eb15" 
 
 Gx, Gy = get_coordinates_from_pubkey(pubkeyhex) 
 
