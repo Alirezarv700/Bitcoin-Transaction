@@ -8,8 +8,8 @@ def save_output_to_file(output):
 for i in range(32):
     process = subprocess.run(
         ["./darksignature", "-pubkey",
-         "ca5606a1e820e7a2f6bb3ab090e8ade7b04a7e0b5909a68dda2744ae3b8ecbfa",
-         "280a47639c811134d648e8ee8096c33b41611be509ebca837fbda10baaa1eb15"],
+         "f3b587144f038f7fd504eaebb2159ad97c0ca33c3cbaf7f3899849a9e2c9074b",
+         "42a45c2e288680541b18fce950789d877f08dd293864a5c41786b9509bf8f62d"],
         stdout=subprocess.PIPE,
         universal_newlines=True
     )
