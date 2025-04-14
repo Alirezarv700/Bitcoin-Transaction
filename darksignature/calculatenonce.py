@@ -40,7 +40,7 @@ for a in range(0,nn):
     ss = signatures[a][1]
 #   zs = ((mm * modinv(ss,N)) % N)
 #   rs = ((rr * modinv(ss,N)) % N)
-    jx = 0x23D4A09295BE678B21A5F1DCEAE1F634A69C1B41775F680EBF8165266471401B
+    jx = 0x4faa01f7409813181fb5ae8d352796b791cd9df4ba0650df7008f5d9d6be8766
     jk = ((mm + rr * jx) * modinv(ss,N)) % N
 #   print("Z/S=",hex(zs))
 #   print("R/S=",hex(rs))
